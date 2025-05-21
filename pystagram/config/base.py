@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     "django.contrib.humanize",
     # own
     'member',
-    'django_extensions',
     'post',
 ]
 
