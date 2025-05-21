@@ -1,0 +1,30 @@
+textarea.form-control {
+    resize: none;
+}
+
+.add-comment {
+  background-color: transparent;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  color: inherit;
+}
+
+.add-comment:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.add-comment:hover i {
+  color: white !important;
+}
+
+.add-comment i {
+  pointer-events: none;
+}
+
+.post-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
