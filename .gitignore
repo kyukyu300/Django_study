@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+db.sqlite3
+media/
+staticfiles/
+static/
+poetry.lock
+.pytest_cache/
+secret.json
+.idea
+.python-version

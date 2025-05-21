@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Bookmark List</h1>
+    {% for bookmark in bookmarks %}
+        <p>
+        <a href = "/book/{{ bookmark.id }}">
+        {{ bookmark.name }}
+            </a>
+        </p>
+    {% endfor %}
+</body>
+</html>
